@@ -2,6 +2,8 @@
 
 React + Vite + Tailwind CSS v4 + GSAP ScrollTrigger. The hero uses a custom inline SVG sports-car illustration, so the visual asset is bundled and does not depend on a third-party image URL.
 
+# Live webpage - https://aditisinghtomar1126.github.io/FIZZcar/
+
 ## Requirements
 Node.js 20.19+ or 22.12+ recommended.
 
