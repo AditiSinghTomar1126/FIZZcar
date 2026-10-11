@@ -2,7 +2,7 @@ import { forwardRef, useEffect, useRef, useState } from 'react'
 import * as THREE from 'three'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 
-const MODEL_URL = '/car.glb'
+const MODEL_URL = `${import.meta.env.BASE_URL}car.glb`
 
 const HeroVisual = forwardRef(function HeroVisual(_, ref) {
   const canvasHost = useRef(null)
